@@ -1,0 +1,26 @@
+/* Remove margens e espaçamentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background: url('fundo.png') no-repeat center center; /* Adiciona a imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo do corpo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo do canvas (área do jogo) */
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid rgb(255, 0, 157); /* Borda branca */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0px 0px 20px rgba(255, 0, 140, 0.557); /* Sombra ao redor do canvas */
+}
